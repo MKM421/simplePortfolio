@@ -3,9 +3,7 @@ console.log("- = +");
 jQuery(document).ready(function($){
 
 $('header, main').animate({'opacity': '1'},300);
-  //
-  /// General Tabs
-  //
+
   $('ul.tabs li').click(function(){
   	var tab_id = $(this).attr('data-tab');
   	$('ul.tabs li').removeClass('current');
@@ -21,5 +19,6 @@ $('header, main').animate({'opacity': '1'},300);
       });
     });
   });
+
 
 });
